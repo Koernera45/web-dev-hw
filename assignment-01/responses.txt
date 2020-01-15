@@ -1,0 +1,22 @@
+How is the web different than the internet?
+
+The web, which isn't physical, connects the informationm in the systems out there. The internet, on the other hand is physical, with lots of cords, 
+wires, and other hardware. It is responsilbe for connecting the users on it.
+
+Briefly describe how the internet works.
+
+The internet is hardware like a cord. Computers connect to this main cord to connect the internet. At home the computer connects to an
+internet provider which will connect them to the internet. The internet uses IP addresses to know where to send and send back information 
+to prevent informationfrom heading to the wrong computer. The info is wrapped by routers and sent to the next routers and on its way back
+it is unwrapped from router to router to find its way back.
+
+What is a directory, and what is its relationship to files?
+
+A directory is a folder/folio on a file system, same function they are just called folder in reference to files on computers. 
+It's relationship to files is that it can contain them.
+
+Why is using a VCS beneficial?
+
+Using a VCS is beneficial because you can use it to track and manage your changes over the work of the project. It allows you to go back 
+to a previous version when the current most recent version doesn't end up working. And it also allows you to share with others to allow 
+collaboration without getting in the way of each others files.
