@@ -1,0 +1,28 @@
+Responses:
+
+1. Briefly describe one way how data travels on the internet
+
+One way binary data travels on the internet is it is broken up into packets.
+The packets are then sent through connections and routers, taking paths that
+aren't broken or overly busy. When they arrive at their destination they are
+reassembled. The destination is determine by the IP address, which the router will
+direct it to.
+
+2. What is the relationship between an IP address and the DNS?
+
+The DNS is responsible for connecting the domain's name (which the user looks
+up) and the domains IP address. The IP address is a string of long numbers,
+which can be hard to remember, so having a domain name helps people find the
+website by looking up the name, and the DNS finding the IP address that goes along
+with it.
+
+3. What is a cookie?
+
+A cookie is a bit of information or an ID card that is sent to your computer from
+ the a website that you are on to ID you. So when you go back to that website it
+ will see that your cookie and identify that it is specifically you returning back
+ to their page.
+
+ 4. List the basic parts of a URL
+
+ The parts of a URL are the protocol, the domain, and the path and files.
