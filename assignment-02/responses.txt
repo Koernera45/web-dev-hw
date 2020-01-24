@@ -25,4 +25,4 @@ A cookie is a bit of information or an ID card that is sent to your computer fro
 
  4. List the basic parts of a URL
 
- The parts of a URL are the protocol, the domain, and the path and files.
+ The parts of a URL are the protocol, the domain, and the path.
