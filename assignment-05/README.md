@@ -7,7 +7,7 @@ everything you will end up seeing on the page.
 
 2. Describe the difference between structural and semantic markup.
 
-Structural markup is the information (headings, paragraphs, etc.) while semantic
+Structural markup embeds the structure of the page (headings, paragraphs, etc.) while semantic
 markup is used to reinforce the meaning of the information in the page.
 
 3. Free Response: Summarize your work cycle for this assignment.
