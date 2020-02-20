@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact">
+    <meta name="author" content="Ashley Koerner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+       table, th, td {
+          border: 1px solid blue;
+       }
+    </style>
+
+  </head>
+
+<body>
+
+  <h1> Granite Pharmacy </h1>
+  <address>
+    Granite Pharmacy <br/>
+    2230 27th Ave <br/>
+    Missoula, MT 59804
+  </address>
+
+  <p> <a href="malto: info@granitepharmacy.com "> info@granitepharmacy.com </a> </p>
+
+  <table>
+   <tr>
+      <th></th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+      <th scope="col">Thursday</th>
+      <th scope="col">Friday</th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+   </tr>
+   <tr>
+      <th scope="row">Opens</th>
+      <td>8:30AM</td>
+      <td>8:00AM</td>
+      <td>8:30AM</td>
+      <td>8:30AM</td>
+      <td>8:00AM</td>
+      <td>9:00AM</td>
+      <td>CLOSED</td>
+   </tr>
+   <tr>
+      <th scope="row">Closes</th>
+      <td>7:00PM</td>
+      <td>7:00PM</td>
+      <td>7:00PM</td>
+      <td>7:00PM</td>
+      <td>7:00PM</td>
+      <td>4:00PM</td>
+      <td></td>
+   </tr>
+  </table>
+
+  <br/>
+
+  <form action="./index.html" method="post">
+     <label>RX:
+        <input type="text" name="rxNumber" autofocus/>
+     </label>
+     <br/>
+     <br/>
+     <label>Distribution:
+        <input id="delivery" type="radio" name="distribution" value="d">
+        <label for="delivery">Delivery</label>
+        <input id="pickup" type="radio" name="distribution" value="p">
+        <label for="pickup">Pickup</label>
+     </label>
+
+     <br/>
+
+     <p>
+       Special Instructions: <br/>
+       <textarea name="instructions" id="textarea">Enter up to 300 characters...</textarea>
+     </p>
+
+    <input type="image" src="./images/submit.png" alt="Submit button" width="100" height="40" />
+
+  </form>
+
+</body>
+
+</html>
