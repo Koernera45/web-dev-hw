@@ -9,21 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-
       body {
-        background-color: powderblue;
+        background-color: violet;
         text-align: center;
       }
+      h1 {
+        color: purple;
+      }
       .container {
-        background-color: white;
+        background-color: pink;
         width: 600px;
         margin: auto;
         padding: 20px;
-        border: 1px solid black;
+        border: 1px solid purple;
       }
-      .lyrics p, pre {
-        background-color: grey;
-        color: white;
+      .lyrics p, pre, p {
+        color: purple;
         font-size: small;
         font-family: Arial;
       }
@@ -32,41 +33,141 @@
 
   </head>
 
-<body>
+  <body>
+    <div id="art" class="container">
+      <h1> Art </h1>
+      <img src="./images/cover.png" alt="Glass Animal Cover Art" title="Cover" width="527" height="527"  />
+    </div>
 
-  <div id="art" class="container">
+    <div id="audio" class="container">
+      <h1> Audio </h1>
+      <iframe src="https://open.spotify.com/embed/track/5DYD4zlGiFlkpLaf2Bk8Vl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
 
-    <h1> Art </h1>
+    <div id="video" class="container">
+      <h1> Video </h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ts--MxmAFkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-    <img src="./images/cover.png" />
+    <div id="lyrics" class="container lyrics">
+      <h1> Lyrics </h1>
 
-  </div>
+      <pre>
 
-  <div id="audio" class="container">
+Your Love (Déjà Vu)
+Glass Animals
 
-    <h1> Audio </h1>
+[Verse 1]
+Mmm, I shut my eyes
+You call but I just cut the line
+I know your style
+I know that you want one more night
+And I'm backsliding
+Into this just one more time
 
-  </div>
+[Pre-Chorus]
+Too
+Far from over you
+Beams from your M2
+Are blowin' through my room
+And now you lay down in my shoes
+You dyed your hair blue
+Oh, so much déjà vu
+And now
 
-  <div id="video" class="container">
-
-    <h1> Video </h1>
-
-  </div>
-
-  <div id="lyrics" class="container lyrics">
-
-    <h1> Lyrics </h1>
-
-  </div>
-
-  <div id="copyright" class="container">
-
-    <h1> Copyright </h1>
-
-  </div>
+[Chorus]
+I can feel your love
+Your temporary touch
+It's a hit and run
+You go back there when you're done
+Don't you want some more?
+'Cause I can feel your love
 
 
-</body>
+[Verse 2]
+Mmm, that purple touch
+Everyone who sees you falls in love
+You eat us up
+You live like you're on camera
+You slide on top
+A moon to all the juice in us
 
+[Pre-Chorus]
+Too
+Far from over you
+Beams from your M2
+Are blowin' through my room
+And now you lay down in my shoes
+You dyed your hair blue
+Oh, so much déjà vu
+And now
+
+[Chorus]
+I can feel your love
+Your temporary touch
+It's a hit and run
+You go back there when you're done
+Don't you want some more?
+'Cause I can feel your love
+(Woo)
+
+
+[Bridge]
+Maybe in time
+When we're both better at life
+Daylight can open my eyes
+And you'll still be by my side
+But meanwhile
+I've got my contact high
+You've got your powdered lies
+We've got these summertime nights
+Night by night, I let you eat me alive
+I want you to eat me alive
+I want you to eat me alive
+(Woo)
+(Ay ay ay ay)
+
+[Chorus]
+I can feel your love
+Your temporary touch
+It's a hit and run
+You go back there when you're done
+I can feel your love
+Your temporary touch
+It's a hit and run
+You go back there when you're done
+I can feel your love
+Your temporary touch
+It's a hit and run
+You go back there when you're done
+Don't you want some more?
+'Cause I can feel your love
+
+
+[Outro]
+I can feel your love
+I can feel your love
+I can feel your love
+I can feel your love
+I can feel your love
+
+      </pre>
+
+    </div>
+
+    <div id="copyright" class="container">
+      <h1> Copyright </h1>
+      <p>
+        I do not own any of the above materials. This was used for a school project.
+      </p>
+      <video poster="./media/mart-logo-poster.jpg" width="400" height="240" preload controls loop>
+        <source src="./media/mart-logo-animated.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="./media/mart-logo-animated.webm" type='video/webm;codecs="vp8, vorbis"'>
+        <p>A video of a puppy playing in the snow.</p>
+        <p>Sorry, your browser does not support the video tag.</p>
+      </video>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.1310079615746!2d-113.9854012468221!3d46.86079420143142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc33f19815cb%3A0x9c296b8546ca9abf!2sUniversity%20of%20Montana!5e0!3m2!1sen!2sus!4v1582944746899!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+  </body>
 </html>
