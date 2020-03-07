@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Page">
+    <meta name="author" content="Ashley Koerner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .container {
+        background-color: white;
+        width: 600px;
+        margin: auto;
+        padding: 25px;
+        border: 5px solid gray;
+      }
+
+      .navbar {
+         padding: 25px;
+         background-color: white;
+         border: 5px solid gray;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div id="navigation" class="navbar">
+      <nav>
+         <a href="./index.html">Home</a> &vert;
+         <a href="./about.html">About</a> &vert;
+         <a href="./contact.html">Contact</a>
+      </nav>
+    </div>
+    <br/>
+    <div id="aboutform" class="container">
+      <h1>Contact Me</h1>
+      <h4> Hours when I am available </h4>
+      <table>
+       <tr>
+          <th></th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+       </tr>
+       <tr>
+          <th scope="row">Opens</th>
+          <td>8:30AM</td>
+          <td>12:00PM</td>
+          <td>NA</td>
+          <td>12:00PM</td>
+          <td>3:00PM</td>
+          <td>NA</td>
+          <td>NA</td>
+       </tr>
+       <tr>
+          <th scope="row">Closes</th>
+          <td>6:00PM</td>
+          <td>6:00PM</td>
+          <td>NA</td>
+          <td>6:00PM</td>
+          <td>6:00PM</td>
+          <td></td>
+          <td></td>
+       </tr>
+      </table>
+    </br>
+      <form action="./index.html" method="post">
+        <label>Have you animated before?
+         <input id="yes" type="radio" name="yes" value="y">
+         <label for="yes">Yes</label>
+         <input id="no" type="radio" name="no" value="n">
+         <label for="no">No</label>
+        </label>
+      <br/>
+      <br/>
+         <p>
+          Tell me about your projects that you have completed or want to work on! <br/>
+           <input type="text" name="name" id="test-text" placeholder="Type here..."/>
+        </p>
+      <br/>
+        <label>Email:
+           <input type="text" name="contactInfo" placeholder="example@email.com" />
+        </label>
+        <br/>
+        <br/>
+        <input type="image" src="./images/submit.png" alt="submit button" width="148" height="59" />
+      </form>
+    </div>
+
+
+  </body>
+</html>
