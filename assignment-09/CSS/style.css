@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(251, 224, 203);
+}
+
+.top {
+  padding: 35px;
+  background-image: url("./../images/checker.jpg");  /* Don't forget semicolons they mess you up otherwise*/
+  opacity: .75;
+  position: relative;
+}
+
+.containers {
+  background-color: rgb(255, 198, 198);
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 20px double rgb(55, 206, 207);
+  text-align: center;
+}
+
+h1{
+  color: rgb(32, 114, 115);
+}
+
+p{
+  color: rgb(32, 114, 115);
+  font-size: 22px;
+}
+
+ol{
+  text-align: left;
+  color: rgb(32, 114, 115);
+}
