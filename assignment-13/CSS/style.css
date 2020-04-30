@@ -1,0 +1,130 @@
+
+body {
+  /*background-color:rgb(255, 255, 255);*/
+  background: url(./../Images/sunset.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 110px;
+  background-attachment: fixed;
+
+}
+
+
+
+.container3{
+  margin:auto;
+  z-index:0;
+  background-color: rgb(0, 0, 0);
+  width: 40%;
+  text-align: justify;
+  font-family: 'Raleway','serif';
+  color:rgb(255, 255, 255);
+  font-weight: 300;
+  padding-bottom: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+  padding-top: 1em;
+}
+
+.container4{
+  padding-top: 1em;
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  z-index:0;
+  background-color: rgb(0, 0, 0);
+  width: 40%;
+  text-align: center;
+  font-family: 'Raleway','serif';
+  color:rgb(255, 255, 255);
+  font-weight: 300;
+  padding-bottom: .5em;
+  float: left;
+  margin-left: 5%;
+}
+
+.container5{
+  margin: auto;
+  width: 80%;
+  padding-top: 10px;
+}
+
+.container3 p::first-line{
+  font-family: 'Fjalla One','sans-serif';
+  font-size: 42px;
+}
+
+
+
+p{
+  font-size:12pt;
+  color:rgb(255, 255, 255);
+  font-family: 'Raleway','serif';
+  font-weight: 300;
+  text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 100px;
+    width: 15%;
+    text-align: center;
+    z-index: 8;
+}
+
+.menu-item, .site-name {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Fjalla One','sans-serif';
+    background-color: rgb(255, 85, 37);
+    padding: .5em 1.5em;
+    font-size: 25px;
+    margin: .75em 1.2em;
+}
+
+.menu-item a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One','sans-serif';
+}
+
+.menu-item:hover {
+    background-color: rgb(209, 19, 0);
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 15em 0 -.9em;
+    background-color:rgb(255, 179, 116);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 1;
+    padding: .5em .5em .5em .5em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: rgb(247, 105, 31);
+    background-color: rgb(136, 0, 0);
+}
